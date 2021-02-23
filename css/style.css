@@ -1,0 +1,283 @@
+/*=========================  Шрифты  ================================================*/
+@font-face {
+  font-family: 'futura__new-reg';
+  src: url('../fonts/FuturaNewMedium-Reg.woff2') format('woff2'), url('../fonts/FuturaNewMedium-Reg.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'pfd__in__text__comp__pro-med';
+  src: url('../fonts/PFDinTextCompPro-Medium.woff2') format('woff2'), url('../fonts/PFDinTextCompPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/*========================= Базовые настройки  ================================================*/
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+select:focus,
+select {
+  outline: none;
+  border: none;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -webkit-appearance: none;
+          appearance: none;
+  -moz-appearance: textfield;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/*========================= Header  ================================================*/
+.header .header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .header__top .header__logo-and-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .header__top .header__logo-and-menu .menu {
+  font-family: 'futura__new-reg';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.header .header__top .header__logo-and-menu .menu .menu__list-item {
+  display: inline-block;
+  padding: 0 22px;
+}
+.header .header__top .header__tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .header__top .header__tools div {
+  padding: 0 16px;
+}
+@media (min-width: 990px) and (max-width: 1150px) {
+  .header .header__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header__top .header__logo-and-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header__top .header__logo-and-menu .menu {
+    font-family: 'futura__new-reg';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .header .header__top .header__logo-and-menu .menu .menu__list-item {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  .header .header__top .header__tools {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header .header__top .header__tools div {
+    padding: 0 16px;
+  }
+}
+@media (min-width: 0px) and (max-width: 990px) {
+  .header .header__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header__top .header__logo-and-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header__top .header__logo-and-menu .menu {
+    font-family: 'futura__new-reg';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .header .header__top .header__logo-and-menu .menu .menu__list-item {
+    display: inline-block;
+    padding: 0 5px;
+  }
+  .header .header__top .header__tools {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header .header__top .header__tools div {
+    padding: 0 16px;
+  }
+}
+@media (min-width: 0px) and (max-width: 915px) {
+  .header .header__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header .header__top .header__logo-and-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header__top .header__logo-and-menu .menu {
+    font-family: 'futura__new-reg';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .header .header__top .header__logo-and-menu .menu .menu__list-item {
+    display: inline-block;
+    padding: 0 5px;
+  }
+  .header .header__top .header__tools div {
+    padding: 0 10px;
+  }
+}
+@media (min-width: 0px) and (max-width: 630px) {
+  .header .header__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header__top .header__logo-and-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header__top .header__logo-and-menu .header__top-logo img {
+    width: 60px;
+    height: 60px;
+  }
+  .header .header__top .header__logo-and-menu .menu {
+    text-align: center;
+    font-family: 'futura__new-reg';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .header .header__top .header__logo-and-menu .menu .menu__list-item {
+    display: inline-block;
+    padding: 0 5px;
+  }
+  .header .header__top .header__tools div {
+    padding: 0 10px;
+  }
+}
+@media (min-width: 0px) and (max-width: 400px) {
+  .header .container {
+    padding: 0;
+  }
+  .header .header__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header .header__top .header__logo-and-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header__top .header__logo-and-menu .header__top-logo img {
+    width: 100%;
+  }
+  .header .header__top .header__logo-and-menu .menu {
+    text-align: center;
+    font-family: 'futura__new-reg';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .header .header__top .header__logo-and-menu .menu .menu__list-item {
+    display: inline-block;
+    padding: 0 5px;
+  }
+  .header .header__top .header__tools div {
+    padding: 0 10px;
+  }
+}
